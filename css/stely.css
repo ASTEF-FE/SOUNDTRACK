@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navBlock0{
+    padding:0 !important;
+}
+
+.navBlock{
+    padding:34px 0 80px 60px !important;
+}
+
+.navbar-brand0, .nav-link{
+    padding-right:60px !important ;
+}
+
+.nav-link1{
+    padding-right: 112px !important;
+}
+
+.navbar-brand0{
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 23px !important;
+    letter-spacing: 1px !important;
+
+    color: #121212 !important;
+    
+    mix-blend-mode: normal !important;
+}
+
+.nav-link0{
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    line-height: 13px!important ;
+    
+    letter-spacing: 0.5px !important;
+    
+    color: #21383E !important;
+}
+
+.nav-link2{
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    line-height: 13px !important;
+    
+    letter-spacing: 0.5px !important;
+    
+    color: #553C16 !important;
+}
+
+.boxSignUp{
+    position: absolute;
+   
+    width: 160px;
+    height: 100px;
+
+    border-radius: 0px 0px 50px 50px;
+
+    right: 168px;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #F5F2EC;
+
+    z-index: -1;
+    opacity: 0;
+}
+
+.nav-item:hover .boxSignUp{
+    transition: opacity .2s linear;
+    opacity: 1;
+}
+
+.boxLogin{
+    position: fixed;
+   
+    width: 160px;
+    height: 100px;
+
+    border-radius: 0px 0px 0px 50px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #F5F2EC;
+
+    z-index: -1;
+    opacity: 0;
+}
+
+.nav-item:hover .boxLogin{
+    transition: opacity .2s linear;
+    opacity: 1;
+}
+
+/* main------------------------------------------- */
+.block1{
+    margin: 80px 0 0 130px !important;
+    max-width: 1360px;
+    padding: 0 !important;
+}
+.block1-p1{
+    max-width: 498px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    /* or 120% */
+    
+    letter-spacing: -0.5px;
+    
+    color: #121212;
+}
+.block1-p2{
+    max-width: 405px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    
+    letter-spacing: 0.5px;
+    
+    color: #21383E;
+    
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.block-empty0{
+    padding: 0 !important;
+}
+.block1-photo1{
+    padding: 10px 0 0  !important;
+}
+
+.block1-photo2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.block1-photo3{
+    /* padding-left:50px; */
+    right: 0;
+}
+
+.dots{
+    position: absolute;
+    top: 3.5%;
+    left: 3%;
+}
+#d-flex{
+   top: -10% !important;
+   left: 10%;
+}
+.d-flex{
+    position: absolute;
+    max-width: 682px;
+    max-height: 123px;
+    width: 150%;
+    height: 150px;
+    top: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 80px rgba(47, 65, 88, 0.2);
+    border-radius: 10px;    
+}
+
+.mb_3{
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;
+    margin-left: 40px;
+    
+}
+
+#exampleInputEmail1{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+        
+    letter-spacing: 0.23px;
+    
+    color: #000000;
+}
+
+.form-label{
+font-size: 13px;
+line-height: 21px;
+
+letter-spacing: 0.3px;
+
+color: #7D8186;
+
+margin:30px 0 8px 40px;
+}
+
+.btn.btn-primary{
+
+    width: 100% ;
+    height: 67px;
+
+    border-radius: 10px;
+    background: #725BA2 !important;
+    
+    margin: -25px 0 0 172px;
+    padding: 0;
+}

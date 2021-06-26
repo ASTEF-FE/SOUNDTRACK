@@ -1,0 +1,132 @@
+/* @include media-breakpoint-up(sm){
+    .block1-photo1{
+        padding: 10px 0 0 10px !important;
+    }
+} */
+
+/* 1400 --------------------------------------------------------------*/
+@media (min-width:1400px){
+    #d-flex {
+        top: -10% !important;
+        left: 11% !important;
+    }
+    .block1-photo3{
+        padding-left:90px !important;
+    }
+    .dots-photo{
+        display:block !important;
+    }
+
+
+/* ---------------------------------------- */
+
+}
+
+
+/* 1200 ---------------------------*/
+@media (min-width:1200px){
+    #d-flex {
+        top: -5% !important;
+        left: 8%;
+    }
+
+    .block1-photo3 {
+        margin-left: 67px;
+        padding: 0;
+    }
+
+    .dots-photo{
+        display: none;
+    }
+
+/* ---------------------------------- */
+}
+
+@media (min-width:992px){
+
+    #d-flex {
+        top: -5% !important;
+        left: -4%;
+    }
+    
+    .block1-photo3 {
+        /* margin-left: -80px; */
+        padding: 0;
+    }
+    .block1-photo2-2 {
+        padding-left: 50px;
+    }
+    
+    .block1-p2{
+        padding-bottom: 50px;
+    }
+    .dots-photo{
+        display: none;
+    }
+    .block-empty0{
+        display:block !important;
+    }
+    .block1-photo3{
+        display:block !important;
+    }
+    .block1-photo2-2, .block1-photo1{
+        width: auto !important;
+    }
+    .block1-photo2-2{
+        
+        width: 100% !important;
+    }
+    
+}
+/* ---------------------------------- */
+
+/* 768 */
+@media  (min-width:768px) {
+    .block-empty0{
+        display: none;
+    }
+
+    .block1-photo3{
+        display: none;
+    }
+    .block1-photo2-2, .block1-photo1{
+        width: auto !important;
+    }
+}
+/* 576-------------------- */
+@media  (min-width:576px) {
+
+.dots-photo{
+    display: none;
+}
+.block1-photo2-2, .block1-photo1{
+    width: 100%;
+}
+.d-flex{
+    width: 100% !important;
+    top: -10% !important;
+    left: -1% !important;
+}
+.btn.btn-primary{
+    width: 100%;
+    margin: -25px 50px 0 50px;
+}
+}
+
+@media  (max-width:575.98px) {
+    .block1-photo2-2, .block1-photo1{
+        width: 100%;
+    }
+    .dots-photo{
+        display: none;
+    }
+    .d-flex{
+        width: 100% !important;
+        top: -10% !important;
+        left: -1% !important;
+    }
+    .btn.btn-primary{
+        width: 100%;
+        margin: -25px 50px 0 50px;
+    }
+}
