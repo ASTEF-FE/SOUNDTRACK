@@ -144,7 +144,9 @@ body{
     justify-content: flex-end;
     position: relative;
 }
-
+.block1-photo2-2{
+    margin-left: 45px;
+}
 .block1-photo3{
     /* padding-left:50px; */
     right: 0;

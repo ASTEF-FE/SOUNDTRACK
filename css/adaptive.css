@@ -35,9 +35,9 @@
         padding: 0;
     }
 
-    .dots-photo{
+    /* .dots-photo{
         display: none;
-    }
+    } */
     .photo_3-2 {
         padding-left: 43% !important;
     
@@ -75,13 +75,13 @@
     .block1-photo3{
         display:block !important;
     }
-    .block1-photo2-2, .block1-photo1{
+    /* .block1-photo2-2, .block1-photo1{
         width: auto !important;
-    }
-    .block1-photo2-2{
+    } */
+    /* .block1-photo2-2{
         
         width: 100% !important;
-    }
+    } */
     
 
 /* chatBlock------------ */
@@ -101,9 +101,9 @@
     .block1-photo3{
         display: none;
     }
-    .block1-photo2-2, .block1-photo1{
+    /* .block1-photo2-2, .block1-photo1{
         width: auto !important;
-    }
+    } */
 
     #photo_3-2{
         padding-left: 16%;
