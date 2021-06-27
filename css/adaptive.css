@@ -38,10 +38,16 @@
     .dots-photo{
         display: none;
     }
+    .photo_3-2 {
+        padding-left: 43% !important;
+    
+    }
+    .chat-block-massage1{
 
-/* ---------------------------------- */
+        margin: 25% 12% 25% 12% !important;
+    }
 }
-
+/* 992 ---------------------------------- */
 @media (min-width:992px){
 
     #d-flex {
@@ -77,6 +83,12 @@
         width: 100% !important;
     }
     
+
+/* chatBlock------------ */
+
+.chat-block-massage1{
+    margin: 25% 50% 25% 0%;
+}
 }
 /* ---------------------------------- */
 
@@ -91,6 +103,13 @@
     }
     .block1-photo2-2, .block1-photo1{
         width: auto !important;
+    }
+
+    #photo_3-2{
+        padding-left: 16%;
+    }
+    .chat-block-massage1{
+        margin: 0 0 0 -20%;
     }
 }
 /* 576-------------------- */
@@ -111,9 +130,25 @@
     width: 100%;
     margin: -25px 50px 0 50px;
 }
+#photo_3-2{
+    
+    padding-left: 2%;
+}
+.chat-block-massage1{
+    margin: 0 -27%;
+}
+.chat-block-massage3{
+    margin: -248px 0 0 303px;
+}
 }
 
 @media  (max-width:575.98px) {
+
+    .block1-photo11{
+        max-width: 350px;
+        margin-left: 10px;
+    }
+    
     .block1-photo2-2, .block1-photo1{
         width: 100%;
     }
@@ -128,5 +163,29 @@
     .btn.btn-primary{
         width: 100%;
         margin: -25px 50px 0 50px;
+    }
+    #photo_3-2{
+        
+        padding-left: 2%;
+    }
+    .chat-block-massage1{
+        margin: 0;
+    }
+    .chat-block-massage2, .chat-block-massage3{
+        position: relative;
+        margin: 0;
+    }
+    /* .chat-block-massage2, .chat-block-massage3{
+        border-radius: 0  50px 50px ;
+        margin: 5px;
+    } */
+
+    .chat-block-massage2 {
+        border-radius: 50px 0px 50px 50px;
+        margin: -40px 5px 25px;
+    }
+    .chat-block-massage3 {
+        border-radius: 50px ;
+        margin: 0px 5px 25px;
     }
 }
