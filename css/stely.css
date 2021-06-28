@@ -4,7 +4,10 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
-
+a{
+    text-decoration: none !important;
+}
+/* navBlock--------------------------------------------------- */
 .navBlock0{
     padding:0 !important;
 }
@@ -106,25 +109,25 @@ body{
     max-width: 1360px;
     padding: 0 !important;
 }
+
 .block1-p1{
     max-width: 498px;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 72px;
-    /* or 120% */
     
     letter-spacing: -0.5px;
     
     color: #121212;
 }
+
 .block1-p2{
     max-width: 405px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-    /* or 186% */
     
     letter-spacing: 0.5px;
     
@@ -133,9 +136,11 @@ body{
     mix-blend-mode: normal;
     opacity: 0.7;
 }
+
 .block-empty0{
     padding: 0 !important;
 }
+
 .block1-photo1{
     padding: 10px 0 0  !important;
 }
@@ -145,11 +150,12 @@ body{
     justify-content: flex-end;
     position: relative;
 }
+
 .block1-photo2-2{
     margin-left: 45px;
 }
+
 .block1-photo3{
-    /* padding-left:50px; */
     right: 0;
 }
 
@@ -158,10 +164,12 @@ body{
     top: 3.5%;
     left: 3%;
 }
+
 #d-flex{
    top: -10% !important;
    left: 10%;
 }
+
 .d-flex{
     position: absolute;
     max-width: 682px;
@@ -179,8 +187,7 @@ body{
     align-items: flex-start;
 
     width: 100%;
-    margin-left: 40px;
-    
+    margin-left: 40px; 
 }
 
 #exampleInputEmail1{
@@ -194,18 +201,17 @@ body{
 }
 
 .form-label{
-font-size: 13px;
-line-height: 21px;
-
-letter-spacing: 0.3px;
-
-color: #7D8186;
-
-margin:30px 0 8px 40px;
+    font-size: 13px;
+    line-height: 21px;
+    
+    letter-spacing: 0.3px;
+    
+    color: #7D8186;
+    
+    margin:30px 0 8px 40px;
 }
 
 .btn.btn-primary{
-
     position: relative;
     max-width: 190px;
     max-height: 67px;
@@ -220,23 +226,22 @@ margin:30px 0 8px 40px;
     /* padding: 0; */
 
     margin: -25px 70px;
-    
     padding: 24px 65px;
 }
 
-/* chatBlock */
+/* chatBlock -----------------------------------------------------------*/
 .chat-block-1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
 .chat-block-title{
     max-width: 440px;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 62px;
-    /* or 124% */
     
     letter-spacing: -0.5px;
     
@@ -245,6 +250,7 @@ margin:30px 0 8px 40px;
     padding-top: 160px;
     padding-bottom: 50px;
 }
+
 .chat-block-line{
     border: 1px solid #DEDEDE;
     background-color: #DEDEDE;
@@ -262,7 +268,6 @@ margin:30px 0 8px 40px;
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-    /* or 186% */
     
     letter-spacing: 0.346154px;
     
@@ -272,6 +277,7 @@ margin:30px 0 8px 40px;
 .chat-block-mas1{
     position: relative;
 }
+
 .photo_3-2{
     padding-left: 43%;
     margin-top: 5%;
@@ -304,12 +310,13 @@ margin:30px 0 8px 40px;
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    /* padding-top: 14px; */
     padding: 14px 0 30px;
 }
+
 .owner-info{
     padding-left: 16px;
 }
+
 .owner-name-chat{
     margin: 0;
 
@@ -317,7 +324,6 @@ margin:30px 0 8px 40px;
     font-weight: 500;
     font-size: 13px;
     line-height: 13px;
-    /* identical to box height, or 100% */
     
     letter-spacing: 0.3px;
     
@@ -329,7 +335,6 @@ margin:30px 0 8px 40px;
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
-    /* identical to box height, or 100% */
     
     letter-spacing: 0.5px;
     
@@ -338,10 +343,12 @@ margin:30px 0 8px 40px;
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+
 .photo_3-3{
     padding-left: 5%;
     max-width: 100%;
 }
+
 .chatOwner{
     padding-top: 13px;
 }
@@ -365,6 +372,7 @@ margin:30px 0 8px 40px;
 
     margin: -330px 0 0 303px
 }
+
 .chat-block-massage3{
     max-width: 319px;
 
@@ -376,7 +384,6 @@ margin:30px 0 8px 40px;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 157% */
     
     letter-spacing: 0.3px;
     
@@ -401,12 +408,15 @@ margin:30px 0 8px 40px;
     padding-left: 12.36% !important;
     position: relative;
 }
+
 /* .callBlock-main-photo{
     position: relative;
 } */
+
 .callBlock-MP{
     width: 100%;
 }
+
 .callBlock-cam{
     position: absolute;
 
@@ -428,6 +438,7 @@ margin:30px 0 8px 40px;
 .cam-circle{
     position: relative;
 }
+
 .cam{
     position: absolute;
     z-index: 1;
@@ -444,7 +455,6 @@ margin:30px 0 8px 40px;
     font-weight: 500;
     font-size: 13px;
     line-height: 13px;
-    /* identical to box height, or 100% */
     
     letter-spacing: 0.3px;
     
@@ -456,7 +466,6 @@ margin:30px 0 8px 40px;
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
-    /* identical to box height, or 100% */
     
     letter-spacing: 0.5px;
     
@@ -474,6 +483,7 @@ margin:30px 0 8px 40px;
     top: 0%;
     left: 65%;  
 }
+
 .circkle{
     position: absolute;
     width: 227px;
@@ -488,13 +498,10 @@ margin:30px 0 8px 40px;
 .call-block-title{
     padding:112px 0 50px 27% ;
 
-
-
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 62px;
-    /* or 124% */
     
     letter-spacing: -0.5px;
     
@@ -522,7 +529,6 @@ margin:30px 0 8px 40px;
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-    /* or 186% */
     
     letter-spacing: 0.346154px;
     
@@ -534,12 +540,14 @@ margin:30px 0 8px 40px;
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    /* padding-top: 14px; */
+
     padding: 14px 0 30px;
 }
+
 .owner-info-call{
     padding-left: 16px;
 }
+
 .owner-name-call{
     margin: 0;
 
@@ -547,7 +555,6 @@ margin:30px 0 8px 40px;
     font-weight: 500;
     font-size: 13px;
     line-height: 13px;
-    /* identical to box height, or 100% */
     
     letter-spacing: 0.3px;
     
@@ -559,7 +566,6 @@ margin:30px 0 8px 40px;
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
-    /* identical to box height, or 100% */
     
     letter-spacing: 0.5px;
     
@@ -572,20 +578,21 @@ margin:30px 0 8px 40px;
 /* caseBlock----------------------------------------------------------- */
 .caseBlock{
     padding-top: 150px;
-    /* padding-left: 130px; */
 }
+
 .case-main-text{
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 72px;
-    /* or 120% */
     
     letter-spacing: -0.5px;
     
     color: #121212;
 
     max-width: 342px;
+
+    padding-bottom: 5px;
 }
 
 .case-maint-text2{
@@ -595,16 +602,11 @@ margin:30px 0 8px 40px;
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-    /* or 186% */
     
     letter-spacing: 0.346154px;
     
     color: #404852;
     
-}
-
-a{
-    text-decoration: none !important;
 }
 
 .caseNum{
@@ -619,8 +621,6 @@ a{
     opacity: 0.34;
 
     max-width: 26px;
-
-    
 }
 
 .caseName{
@@ -628,7 +628,6 @@ a{
     font-weight: normal;
     font-size: 40px;
     line-height: 70px;
-    /* identical to box height, or 175% */
     
     letter-spacing: 0.833333px;
     
@@ -641,7 +640,6 @@ a{
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
-    /* identical to box height, or 164% */
     
     letter-spacing: 0.5px;
     
@@ -653,7 +651,9 @@ a{
     padding-left: 60px;
     padding-bottom: 50px;
 }
-
+.casePrev1{
+    padding-bottom: 0;
+}
 .numArrowPos{
     padding-top: 15px;
 }
@@ -663,6 +663,11 @@ a{
     opacity: 0.4;
     border: 0.5px solid #000000
 }
+
 .rowCase{
     padding-top: 50px;
+}
+
+footer{
+    padding-top: 77px;
 }

@@ -1,29 +1,21 @@
-/* @include media-breakpoint-up(sm){
-    .block1-photo1{
-        padding: 10px 0 0 10px !important;
-    }
-} */
-
 /* 1400 --------------------------------------------------------------*/
 @media (min-width:1400px){
     #d-flex {
         top: -10% !important;
         left: 11% !important;
     }
+
     .block1-photo3{
         padding-left:90px !important;
     }
+
     .dots-photo{
         display:block !important;
     }
-
-
-/* ---------------------------------------- */
-
 }
 
 
-/* 1200 ---------------------------*/
+/* 1200 ----------------------------------------------------------------*/
 @media (min-width:1200px){
     #d-flex {
         top: -5% !important;
@@ -38,16 +30,19 @@
     /* .dots-photo{
         display: none;
     } */
+
     .photo_3-2 {
         padding-left: 43% !important;
     
     }
+
     .chat-block-massage1{
 
         margin: 25% 12% 25% 12% !important;
     }
 }
-/* 992 ---------------------------------- */
+
+/* 992 ---------------------------------------------------------------------*/
 @media (min-width:992px){
 
     #d-flex {
@@ -59,6 +54,7 @@
         /* margin-left: -80px; */
         padding: 0;
     }
+
     .block1-photo2-2 {
         padding-left: 50px;
         width: 100%;
@@ -67,43 +63,64 @@
     .block1-p2{
         padding-bottom: 50px;
     }
+
     .dots-photo{
         display: none;
     }
+
     .block-empty0{
         display:block !important;
     }
+
     .block1-photo3{
         display:block !important;
     }
+
     /* .block1-photo2-2, .block1-photo1{
         width: auto !important;
     } */
+
     /* .block1-photo2-2{
         
         width: 100% !important;
     } */
     
 
-/* chatBlock------------ */
+    /* chatBlock------------ ------------------------------------------------*/
 
-.chat-block-massage1{
+    .chat-block-massage1{
     margin: 25% 50% 25% 0%;
-}
-.callBlock-cam{
+    }
+
+    .callBlock-cam{
     top: 80% !important;
+    }
 }
-}
-/* ---------------------------------- */
+
+/* -----------------------------------------------------------------------*/
 @media  (max-width:991.8px){
     .callBlock-dispatcher{
         top: 18%;
     }
+
     .callBlock-cam{
         top: 80%;
     }
+
+    .nav-link{
+        padding: 25px 60px 15px 0 !important;
+    }
+
+    .nav-link2{
+        padding-right: 150px !important;
+    }
+
+    .boxSignUp, .boxLogin{
+        display: none;
+    }
 }
-/* 768 */
+
+/* 768 --------------------------------------------------------------------*/
 @media  (min-width:768px) {
     .block-empty0{
         display: none;
@@ -112,6 +129,7 @@
     .block1-photo3{
         display: none;
     }
+
     /* .block1-photo2-2, .block1-photo1{
         width: auto !important;
     } */
@@ -119,67 +137,81 @@
     #photo_3-2{
         padding-left: 16%;
     }
+
     .chat-block-massage1{
         margin: 0 0 0 -20%;
     }
+
     .callBlock-cam{
         top: 70%;
     }
+
     /* .callBlock-dispatcher{
         top: 18%;
     } */
 }
-/* -------------------------- */
+
+/* ----------------------------------------------------------------*/
 @media  (max-width:767.8px){
     .callBlock-dispatcher{
         top: 0%;
     }
+
     .call-block-title{
         padding-left: 13px;
     }
+
     .call-block-line{
         margin-left: 3%;
     }
+
     .callOwner{
         padding-left: 13px !important;
     }
+    
 }
-/* 576-------------------- */
+
+/* 576------------------------------------------------------------------------------------*/
 @media  (min-width:576px) {
 
-.dots-photo{
-    display: none;
-}
-/* .block1-photo2-2, .block1-photo1{
-    width: 100%;
-} */
-.d-flex{
-    width: 100% !important;
-    top: -10% !important;
-    left: -1% !important;
-}
-/* .btn.btn-primary{
-    width: 100%;
-    margin: -25px 50px 0 50px;
-} */
-#photo_3-2{
+    .dots-photo{
+        display: none;
+    }
+
+    /* .block1-photo2-2, .block1-photo1{
+        width: 100%;
+    } */
+
+    .d-flex{
+        width: 100% !important;
+        top: -10% !important;
+        left: -1% !important;
+    }
+
+    /* .btn.btn-primary{
+        width: 100%;
+        margin: -25px 50px 0 50px;
+    } */
+
+    #photo_3-2{
+        
+        padding-left: 2%;
+    }
+
+    .chat-block-massage1{
+        margin: 0 -27%;
+    }
+
+    .chat-block-massage3{
+        margin: -248px 0 0 303px;
+    }
     
-    padding-left: 2%;
+    .block1-photo3{
+        display: none;
+    }
 }
-.chat-block-massage1{
-    margin: 0 -27%;
-}
-.chat-block-massage3{
-    margin: -248px 0 0 303px;
-}
-.block1-photo3{
-    display: none;
-}
-
-}
-
+/* ----------------------------------------------------------------------*/
 @media  (max-width:575.98px) {
-
     .block1-photo11{
         max-width: 350px;
         margin-left: 10px;
@@ -188,29 +220,35 @@
     .block1-photo2-2, .block1-photo1{
         width: 100%;
     }
+
     .dots-photo{
         display: none;
     }
+
     .d-flex{
         width: 100% !important;
         top: -10% !important;
         left: -1% !important;
     }
+
     /* .btn.btn-primary{
         width: 100%;
         margin: -25px 50px 0 50px;
     } */
+
     #photo_3-2{
-        
         padding-left: 2%;
     }
+
     .chat-block-massage1{
         margin: 0;
     }
+
     .chat-block-massage2, .chat-block-massage3{
         position: relative;
         margin: 0;
     }
+
     /* .chat-block-massage2, .chat-block-massage3{
         border-radius: 0  50px 50px ;
         margin: 5px;
@@ -220,13 +258,16 @@
         border-radius: 50px 0px 50px 50px;
         margin: -40px 5px 25px;
     }
+
     .chat-block-massage3 {
         border-radius: 50px ;
         margin: 0px 5px 25px;
     }
+
     .block1-photo3{
         display: none;
     }
+
     .call-block-title{
         padding-left: 13px;
     }
