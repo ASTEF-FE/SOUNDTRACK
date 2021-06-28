@@ -61,6 +61,7 @@
     }
     .block1-photo2-2 {
         padding-left: 50px;
+        width: 100%;
     }
     
     .block1-p2{
@@ -89,9 +90,19 @@
 .chat-block-massage1{
     margin: 25% 50% 25% 0%;
 }
+.callBlock-cam{
+    top: 80% !important;
+}
 }
 /* ---------------------------------- */
-
+@media  (max-width:991.8px){
+    .callBlock-dispatcher{
+        top: 18%;
+    }
+    .callBlock-cam{
+        top: 80%;
+    }
+}
 /* 768 */
 @media  (min-width:768px) {
     .block-empty0{
@@ -111,6 +122,27 @@
     .chat-block-massage1{
         margin: 0 0 0 -20%;
     }
+    .callBlock-cam{
+        top: 70%;
+    }
+    /* .callBlock-dispatcher{
+        top: 18%;
+    } */
+}
+/* -------------------------- */
+@media  (max-width:767.8px){
+    .callBlock-dispatcher{
+        top: 0%;
+    }
+    .call-block-title{
+        padding-left: 13px;
+    }
+    .call-block-line{
+        margin-left: 3%;
+    }
+    .callOwner{
+        padding-left: 13px !important;
+    }
 }
 /* 576-------------------- */
 @media  (min-width:576px) {
@@ -118,18 +150,18 @@
 .dots-photo{
     display: none;
 }
-.block1-photo2-2, .block1-photo1{
+/* .block1-photo2-2, .block1-photo1{
     width: 100%;
-}
+} */
 .d-flex{
     width: 100% !important;
     top: -10% !important;
     left: -1% !important;
 }
-.btn.btn-primary{
+/* .btn.btn-primary{
     width: 100%;
     margin: -25px 50px 0 50px;
-}
+} */
 #photo_3-2{
     
     padding-left: 2%;
@@ -140,6 +172,10 @@
 .chat-block-massage3{
     margin: -248px 0 0 303px;
 }
+.block1-photo3{
+    display: none;
+}
+
 }
 
 @media  (max-width:575.98px) {
@@ -160,10 +196,10 @@
         top: -10% !important;
         left: -1% !important;
     }
-    .btn.btn-primary{
+    /* .btn.btn-primary{
         width: 100%;
         margin: -25px 50px 0 50px;
-    }
+    } */
     #photo_3-2{
         
         padding-left: 2%;
@@ -187,5 +223,11 @@
     .chat-block-massage3 {
         border-radius: 50px ;
         margin: 0px 5px 25px;
+    }
+    .block1-photo3{
+        display: none;
+    }
+    .call-block-title{
+        padding-left: 13px;
     }
 }

@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
+
 .navBlock0{
     padding:0 !important;
 }
@@ -205,14 +206,22 @@ margin:30px 0 8px 40px;
 
 .btn.btn-primary{
 
-    width: 100% ;
+    position: relative;
+    max-width: 190px;
+    max-height: 67px;
+    /* left: 25%; */
+    /* width: 100% ; */
     height: 67px;
 
     border-radius: 10px;
     background: #725BA2 !important;
     
-    margin: -25px 0 0 172px;
-    padding: 0;
+    /* margin: -25px 0 0 172px; */
+    /* padding: 0; */
+
+    margin: -25px 70px;
+    
+    padding: 24px 65px;
 }
 
 /* chatBlock */
@@ -266,6 +275,7 @@ margin:30px 0 8px 40px;
 .photo_3-2{
     padding-left: 43%;
     margin-top: 5%;
+
 }
 
 .chat-block-massage1{
@@ -330,6 +340,7 @@ margin:30px 0 8px 40px;
 }
 .photo_3-3{
     padding-left: 5%;
+    max-width: 100%;
 }
 .chatOwner{
     padding-top: 13px;
@@ -380,3 +391,180 @@ margin:30px 0 8px 40px;
     position: relative;
 }
 
+/* callBlock---------------------------------------------------------- */
+.callBlock{
+    margin-top: 4% !important;
+}
+.callBlock-photo{
+    display: flex;
+    align-items: center;
+    padding-left: 12.36% !important;
+    position: relative;
+}
+/* .callBlock-main-photo{
+    position: relative;
+} */
+.callBlock-MP{
+    width: 100%;
+}
+.callBlock-cam{
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+        
+    z-index: 1;
+
+    background: #FFFFFF;
+    box-shadow: 0px 30px 80px rgb(47 65 88 / 20%);
+    border-radius: 2000px;
+
+    padding: 8px;
+
+    top: 80%;
+    left: 10%;
+}
+
+.cam-circle{
+    position: relative;
+}
+.cam{
+    position: absolute;
+    z-index: 1;
+    left: 26px;
+}
+
+.cam-text1, .cam-text2{
+    margin: 0;
+    padding-left: 16px;
+}
+
+.cam-text1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.3px;
+    
+    color: #273240;
+}
+
+.cam-text2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.5px;
+    
+    color: #2C3A4B;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    padding-top: 8px;
+    padding-right: 8px;
+}
+
+.callBlock-dispatcher{
+    position: absolute;
+    top: 0%;
+    left: 65%;  
+}
+.circkle{
+    position: absolute;
+    width: 227px;
+    height: 227px;
+    border: 0.5px solid #3C636A;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    padding: 45px 38px 38px 38px;
+}
+
+.call-block-title{
+    padding:112px 0 50px 27% ;
+
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    /* or 124% */
+    
+    letter-spacing: -0.5px;
+    
+    color: #121212;
+    
+}
+
+.call-block-line{
+    border: 1px solid #DEDEDE;
+    background-color: #DEDEDE;
+    width: 121px;
+    height: 0px;
+    margin-left: 27%;
+    margin-bottom: 37px;
+}
+
+.callOwner{
+    padding-top: 13px;
+    padding-left: 27% !important;
+}
+
+.call-block-mainText{
+    max-width: 440px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    
+    letter-spacing: 0.346154px;
+    
+    color: #404852;
+}
+
+.call-owner{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding-top: 14px; */
+    padding: 14px 0 30px;
+}
+.owner-info-call{
+    padding-left: 16px;
+}
+.owner-name-call{
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.3px;
+    
+    color: #273240;
+}
+
+.owner-title-call{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.5px;
+    
+    color: #2C3A4B;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
