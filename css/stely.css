@@ -568,3 +568,101 @@ margin:30px 0 8px 40px;
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+
+/* caseBlock----------------------------------------------------------- */
+.caseBlock{
+    padding-top: 150px;
+    /* padding-left: 130px; */
+}
+.case-main-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    /* or 120% */
+    
+    letter-spacing: -0.5px;
+    
+    color: #121212;
+
+    max-width: 342px;
+}
+
+.case-maint-text2{
+    max-width: 349px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    
+    letter-spacing: 0.346154px;
+    
+    color: #404852;
+    
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.caseNum{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    
+    color: #000000 !important;
+    
+    mix-blend-mode: normal;
+    opacity: 0.34;
+
+    max-width: 26px;
+
+    
+}
+
+.caseName{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 70px;
+    /* identical to box height, or 175% */
+    
+    letter-spacing: 0.833333px;
+    
+    color: #000000;
+    padding-left: 60px;
+}
+
+.casePrev{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height, or 164% */
+    
+    letter-spacing: 0.5px;
+    
+    color: #000000;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.numArrowPos{
+    padding-top: 15px;
+}
+
+.caseLine{
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    border: 0.5px solid #000000
+}
+.rowCase{
+    padding-top: 50px;
+}
