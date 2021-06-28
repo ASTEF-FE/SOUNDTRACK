@@ -1,6 +1,6 @@
 # SOUNDTRACK
 
-ТЗ: Выполнить верстку макета, адаптировать под побильные устройства.
+ТЗ: Выполнить верстку макета, адаптировать под мобильные устройства.
 
 Макет: https://www.figma.com/file/42I9SjJWclqimo8HnP9BL5/Website-Landing-Page-(Community)?node-id=0%3A1
 
